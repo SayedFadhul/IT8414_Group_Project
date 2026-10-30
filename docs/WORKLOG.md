@@ -18,6 +18,7 @@ Each member adds their own entries, in date order, and commits them from their o
 | 2026-10-30 | Sayed Fadhul Hashem | Wrote section 3.0: Figure 1 class balance (2.9 to 1; majority baseline 19.4%) with the decisions it drives, and Figure 2 privacy check of Paper and Cardboard photos | Commit 5b02e2b |
 | 2026-10-30 | Sayed Fadhul Hashem | Added the duplicate search and Figure 3 to 3.0: no identical files, 2 near-duplicate pairs (256-bit fingerprint, 24-bit cut-off checked by eye) | Notebook 3.0 |
 | 2026-10-30 | Sayed Fadhul Hashem | Wrote the 4.0 split: stratified and grouped 60/20/20 (2,851 / 950 / 951), with leakage and balance checks (no group crosses sets; class shares within 0.1 points) and a test-set fingerprint | Notebook 4.0, docs/DATA.md |
+| 2026-10-30 | Sayed Fadhul Hashem | Drafted report Section 1 (introduction) and Section 3 (dataset and preprocessing), with every number checked against the notebook outputs; items marked TO CONFIRM wait for the resizing, augmentation and contributor cells | report/1_introduction.md, report/3_dataset_and_preprocessing.md |
 
 ## Week 7 (1–5 Nov 2026)
 
