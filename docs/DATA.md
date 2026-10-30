@@ -41,13 +41,23 @@ These are the counts published on the UCI page and in the archive's README, and 
 2. Extract it into a `data/` folder at the top of this repository. This creates `data/realwaste-main/RealWaste/`, with one folder per class, for example `data/realwaste-main/RealWaste/Food Organics/Food Organics_81.jpg`.
 3. `data/` is listed in `.gitignore`, so the images are never committed.
 
-Notebook sections 1.0 (paths) and 2.0 do these steps automatically: they download the zip if it is missing, check its SHA-256 fingerprint, unzip it and recount the images per class. The split is added in section 4.0.
+Notebook sections 1.0 (paths) and 2.0 do these steps automatically: they download the zip if it is missing, check its SHA-256 fingerprint, unzip it and recount the images per class. Section 4.0 then makes the split described below.
+
+## Split (notebook section 4.0)
+
+| Set | Images | Share |
+|---|---|---|
+| Training | 2,851 | 60.0% |
+| Validation | 950 | 20.0% |
+| Test | 951 | 20.0% |
+
+The split is stratified by class and grouped, so near-duplicate pairs stay in one set (scikit-learn `StratifiedGroupKFold`, seed 42). Every class's share in each set is within 0.1 percentage points of its overall share. The notebook prints a test-set fingerprint, `e9c3df307b09` (the first 12 characters of the SHA-256 of the sorted test file names). A run that prints a different value has a different split.
 
 ## First checks (30 Oct 2026)
 
 - All 4,752 files are JPEGs that open without errors. All are 524 × 524 pixels in 3-channel colour, and file sizes range from 48 KB to 243 KB.
 - No two files are byte-for-byte identical.
-- Some near-duplicates exist. For example, `Food Organics_81.jpg` and `Food Organics_82.jpg` show the same pile of waste photographed twice. A quick 64-bit image hash flagged 109 similar pairs, but the pairs we inspected were mostly different objects in a similar position on the same background, so a stronger check is needed. Notebook section 4.0 will find near-duplicates properly and keep each group in one split, so the test set holds no copies of training images.
+- Two near-duplicate pairs exist. Notebook section 3.0 (Figure 3) compares every pair of photos with a 256-bit image fingerprint and finds `Food Organics_81/82` and `Metal_216/217`, each the same item photographed twice. Section 4.0 keeps each pair in one set, so the test set holds no copies of training photos.
 - The photos we inspected show a single item or pile on a light concrete floor. The analysis in section 3.0 will check this across the dataset.
 
 ## Notes
