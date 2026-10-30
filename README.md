@@ -18,12 +18,15 @@ Tutor: Dr. Shomona Jacob
 
 | Path | What it is |
 |---|---|
-| `IT8414_Group03_WasteSorting.ipynb` | Main notebook, sections 1.0 to 10.0 |
-| `DATA.md` | Dataset source, licence, download and preparation |
-| `WORKLOG.md` | Work log |
-| `SOURCES.md` | Tutorials, documentation and code we adapted, and what we changed |
+| `notebooks/IT8414_Group03_WasteSorting.ipynb` | Main notebook, sections 1.0 to 10.0 |
+| `docs/DATA.md` | Dataset source, licence, download and preparation |
+| `docs/WORKLOG.md` | Work log |
+| `docs/SOURCES.md` | Tutorials, documentation and code we adapted, and what we changed |
+| `report/` | Report drafts and the final PDF |
+| `slides/` | Presentation slides |
+| `data/` | The dataset, on each member's own machine only |
 
-The dataset is not stored in this repository; see `DATA.md`.
+The dataset is not stored in this repository; see [docs/DATA.md](docs/DATA.md).
 
 ## How to reproduce
 
