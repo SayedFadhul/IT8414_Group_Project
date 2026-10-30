@@ -41,7 +41,7 @@ These are the counts published on the UCI page and in the archive's README, and 
 2. Extract it into a `data/` folder at the top of this repository. This creates `data/realwaste-main/RealWaste/`, with one folder per class, for example `data/realwaste-main/RealWaste/Food Organics/Food Organics_81.jpg`.
 3. `data/` is listed in `.gitignore`, so the images are never committed.
 
-A preparation script (download, checks and split) will be added here once it is written.
+Notebook sections 1.0 (paths) and 2.0 do these steps automatically: they download the zip if it is missing, check its SHA-256 fingerprint, unzip it and recount the images per class. The split is added in section 4.0.
 
 ## First checks (30 Oct 2026)
 

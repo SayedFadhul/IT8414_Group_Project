@@ -13,8 +13,8 @@ Each role has one lead, and the other two members contribute to it.
 | Role | Lead | Contributors | Notebook sections |
 |---|---|---|---|
 | A: Data preparation and evaluation | Sayed Fadhul Hashem | Ali Haji, Mohamed Alradhi | 2.0, 3.0, 4.0, 8.0 |
-| B: Baseline model and training | Mohamed Alradhi | Sayed Fadhul Hashem, Ali Haji | 1.0, 5.0, 7.0 |
-| C: Transfer learning and interpretation | Ali Haji | Sayed Fadhul Hashem, Mohamed Alradhi | 6.0, 9.0, 10.0 |
+| B: Baseline model, training and Grad-CAM | Mohamed Alradhi | Sayed Fadhul Hashem, Ali Haji | 1.0, 5.0, 7.0, 9.1, 9.3 |
+| C: Transfer learning and error analysis | Ali Haji | Sayed Fadhul Hashem, Mohamed Alradhi | 6.0, 9.2, 10.0 |
 
 Every code cell names the member who wrote it.
 

@@ -12,6 +12,9 @@ Each member adds their own entries, in date order, and commits them from their o
 | 2026-10-30 | Sayed Fadhul Hashem | Organised the repository into folders: notebooks, docs, report and slides | Commit 632c27b |
 | 2026-10-30 | Sayed Fadhul Hashem | Updated the role split: swapped Ali's and Mohamed's areas, and made each role one lead with the other two members as contributors | Commit 04dbe1b |
 | 2026-10-30 | Sayed Fadhul Hashem | Downloaded RealWaste and ran first checks: 4,752 images, class counts match, all readable and 524 × 524, no exact duplicates; found near-duplicate photos to handle in the split | docs/DATA.md |
+| 2026-10-30 | Sayed Fadhul Hashem | Wrote notebook section 2.0 (download with fingerprint check, image table, recount against the published counts) and the dataset-paths cell in 1.0 | Notebook 1.0 and 2.0 |
+| 2026-10-30 | Sayed Fadhul Hashem | Installed Python 3.12 and a project environment on the demo laptop; ran sections 1.0 and 2.0 there: 4,752 images, every class count matches | Notebook 2.0 outputs |
+| 2026-10-30 | Sayed Fadhul Hashem | Rebalanced the roles: Mohamed now leads Grad-CAM (9.1) and the prediction-on-any-image cell (9.3); Ali leads transfer learning, error analysis and the conclusion | README.md, notebook headings |
 
 ## Week 7 (1–5 Nov 2026)
 
