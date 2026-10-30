@@ -1,0 +1,22 @@
+# Dataset (see DATA.md)
+data/
+*.zip
+
+# Saved models and training outputs (kept out of git for now)
+models/
+outputs/
+
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
