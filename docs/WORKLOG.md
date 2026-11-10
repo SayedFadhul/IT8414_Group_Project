@@ -24,3 +24,9 @@ Each member adds their own entries, in date order, and commits them from their o
 
 | Date | Member | Work done | Evidence |
 |---|---|---|---|
+
+## Week 8 (8–12 Nov 2026)
+
+| Date | Member | Work done | Evidence |
+|---|---|---|---|
+| 2026-11-10 | Sayed Fadhul Hashem | Rewrote and simplified notebook sections 1.0 to 4.0 in the style of the course labs: one setup cell with the imports and seed (Lab 5), a one-line download, the image table and bar labels built as in Lab 1, a comparison loop for near-duplicates as in Lab 2A, and shorter split checks; removed code that was not needed and added comments through every cell. Re-ran the notebook: every earlier result is unchanged (test-set fingerprint e9c3df307b09) | Notebook 1.0–4.0, docs/SOURCES.md |

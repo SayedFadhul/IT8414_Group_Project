@@ -56,7 +56,7 @@ The split is stratified by class and grouped, so near-duplicate pairs stay in on
 ## First checks (30 Oct 2026)
 
 - All 4,752 files are JPEGs that open without errors. All are 524 × 524 pixels in 3-channel colour, and file sizes range from 48 KB to 243 KB.
-- No two files are byte-for-byte identical.
+- No two files are byte-for-byte identical. Notebook section 3.0 confirms that no two photos are identical: even the closest pair differs in 10 of 256 fingerprint bits.
 - Two near-duplicate pairs exist. Notebook section 3.0 (Figure 3) compares every pair of photos with a 256-bit image fingerprint and finds `Food Organics_81/82` and `Metal_216/217`, each the same item photographed twice. Section 4.0 keeps each pair in one set, so the test set holds no copies of training photos.
 - The photos we inspected show a single item or pile on a light concrete floor. The analysis in section 3.0 will check this across the dataset.
 
